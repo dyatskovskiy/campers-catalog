@@ -1,3 +1,5 @@
+import { PageWrapper } from '../../components/PageWrapper/PageWrapper';
+
 export default function Catalog() {
-  return <div>Catalog Page</div>;
+  return <PageWrapper>Catalog</PageWrapper>;
 }
