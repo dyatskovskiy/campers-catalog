@@ -5,21 +5,21 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('/public/fonts/Inter-Regular.woff');
+  src: url('/fonts/Inter-Regular.woff');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  src: url('/public/fonts/Inter-Medium.woff');
+  src: url('/fonts/Inter-Medium.woff');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('/public/fonts/Inter-SemiBold.woff');
+  src: url('/fonts/Inter-SemiBold.woff');
 }
 
 body {
