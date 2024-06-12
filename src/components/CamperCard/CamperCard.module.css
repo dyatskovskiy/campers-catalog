@@ -1,0 +1,111 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.camperPhoto {
+  border-radius: 10px;
+  width: 290px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.mainInfoBlock {
+  max-width: 526px;
+}
+
+.topTextBlock {
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  text-wrap: nowrap;
+}
+
+.topText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.priceBlock {
+  display: flex;
+  gap: 10px;
+}
+
+.favoriteButton {
+  align-self: center;
+  border: none;
+  background-color: transparent;
+}
+
+.heartIcon {
+  stroke: var(--black);
+  fill: none;
+  transition: all var(--animation);
+}
+
+.activeHeart {
+  transform: rotateY(180deg);
+  fill: var(--red);
+  stroke: var(--red);
+}
+
+/* ====================*/
+
+.ratingBlock {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.starIcon {
+  fill: var(--yellow);
+  margin-right: 4px;
+  align-self: center;
+}
+
+.ratingLink {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--black);
+  margin-right: 16px;
+}
+
+.mapPinIcon {
+  stroke: var(--black);
+  fill: none;
+  margin-right: 4px;
+  align-self: center;
+}
+
+.location {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ====================*/
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--grey);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin-bottom: 24px;
+}
+
+/* ====================*/
+.carFeaturesBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}

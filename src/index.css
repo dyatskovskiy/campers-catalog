@@ -2,7 +2,13 @@
 @import '../node_modules/reset-css/reset.css';
 
 :root {
-  --text-black: #101828;
+  --black: #101828;
+  --grey: #475467;
+  --red: #e44848;
+  --yellow: #ffc531;
+  --primary-white: #f2f4f7;
+  --additional-white: #f7f7f7;
+  --animation: 300ms ease;
 }
 
 @font-face {
@@ -30,4 +36,9 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: var(--black);
+}
+
+button {
+  cursor: pointer;
 }

@@ -1,6 +1,6 @@
 import css from './CampersList.module.css';
 
-import { CamperCard } from '../ListItem/ListItem';
+import { CamperCard } from '../CamperCard/CamperCard';
 
 export const CampersList = ({ campers }) => {
   return (
