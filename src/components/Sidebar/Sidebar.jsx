@@ -1,5 +1,10 @@
+import { LocationInput } from '../Input/LocationInput';
 import css from './Sidebar.module.css';
 
-export const Sidebar = ({ children }) => {
-  return <aside className={css.wrapper}>{children}</aside>;
+export const Sidebar = () => {
+  return (
+    <aside className={css.wrapper}>
+      <LocationInput />
+    </aside>
+  );
 };

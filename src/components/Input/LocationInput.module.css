@@ -1,8 +1,41 @@
-.abel {
+.label {
+  display: block;
+  color: #10182899;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.inputWrapper {
+  position: relative;
 }
 
 .input {
+  padding: 18px 18px 18px 44px;
+  background-color: var(--additional-white);
+  color: var(--black);
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  line-height: 1.25;
+  transition: all var(--animation);
+}
+
+.input:focus {
+  outline: none;
+  background-color: var(--primary-white);
+}
+
+.input:focus + .mapPinIcon {
+  stroke: var(--black);
 }
 
 .mapPinIcon {
+  fill: none;
+  stroke: #10182899;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  transition: all var(--animation);
 }

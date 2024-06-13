@@ -23,7 +23,7 @@ export default function Catalog() {
 
   return (
     <PageWrapper>
-      <Sidebar></Sidebar>
+      <Sidebar />
       {campers.length > 0 && <CampersList campers={campers} />}
       {isLoading && <p>Loading...</p>}
       {isError && <p>{isError}</p>}
